@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+:root{
+    --light-green: #E1EDE6;
+    --dark-green: #376B44;
+    --border: 1px solid #598D66;
+    --grey: #86928B;
+    --dark-text:#2C2D35;
+    --green-text:#598D66;
+    --font-family: "Raleway", sans-serif;
+    --border-padding: 20px 60px;
+
+    --index: calc(1vw + 1vh);
+}
