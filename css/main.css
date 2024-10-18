@@ -15,8 +15,10 @@ body{
 }
 .container{
     width: 100%;
-    padding: 0 calc(var(--index) * 3);
+    padding: 0 calc(var(--index) * 5);
 }
+
+
 section{
     margin-top: 70px;
     margin-bottom: 70px;
@@ -103,6 +105,8 @@ header{
     background-color: transparent;
     font-weight: 500;
     font-size: 20px;
+    transition:.6s ease;
+    cursor: pointer;
 }
 .button:hover{
     color:#fff;
@@ -140,9 +144,11 @@ header{
     font-size: 20px;
     text-align: center;
     cursor: pointer;
+    transition: 1s ease-in-out;
 }
 .tabs__item:hover{
     border: var(--border);
+    transform: translateY(-5px);
 }
 .tabs__item.active {
     background-color: var(--dark-green); 
@@ -385,7 +391,8 @@ height: 440px;
     display: none;
 }
 .visibility-hidden{
-   visibility: hidden;
+   /* visibility: hidden; */
+   display: none;
  }
  .mobile-overlay{
     position: absolute;
